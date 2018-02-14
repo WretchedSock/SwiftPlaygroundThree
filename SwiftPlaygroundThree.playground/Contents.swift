@@ -18,3 +18,19 @@ print(fruitNames[1])
 
 print(fruitNames[0])
 
+//Part 8, Start of Assignment #4
+
+var numbers = [1, 2, 3, 4, 5]
+for fav in numbers {
+    print("My favorite number is \(fav)")
+}
+
+//experimentation here
+
+//removing
+let removed = numbers.remove(at: 2)
+print(numbers)
+
+//appending
+numbers.append(6)
+print(numbers)
